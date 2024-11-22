@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="rooms-list">
+            <h2>Chat Rooms</h2>
+            <ul id="rooms">
+
+            </ul>
+            <button id="createRoomBtn">Create Room</button>
+            <button id="leaveRoomBtn" disabled>Leave Room</button>
+        </div>
+
+
+        <div class="chat-section">
+            <div class="chat-header">
+                <h2 id="roomName">Select a room to chat</h2>
+            </div>
+
+
+            <div id="chatMessages" class="chat-messages">
+
+            </div>
+
+
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type your message here..." disabled>
+                <button id="sendBtn" disabled>Send</button>
+            </div>
+        </div>
+    </div>
+
+    <p style="text-align: center; margin-top: 20px;">All rights reserved to Yash Chalke 2024</p>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
